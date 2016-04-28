@@ -1,0 +1,26 @@
+{
+  "capabilities": [
+    {
+      "browserName": "*iexplore",
+      "maxInstances": 1,
+      "seleniumProtocol": "Selenium"
+    },
+    {
+      "browserName": "internet explorer",
+      "maxInstances": 10,
+      "seleniumProtocol": "WebDriver"
+    }
+  ],
+  "configuration": {
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "maxSession": 10,
+	"nodeTimeout": 120,
+	"port": 5555,
+	"register": true,
+	"nodePolling":2000,
+	"registerCycle": 10000,
+	"register": true,
+	"cleanUpCycle": 2000,
+	"timeout": 30000
+  }
+}
