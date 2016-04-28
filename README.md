@@ -11,14 +11,16 @@
 ### Run your Selenium IE Node as a Windows service
 
 1. Checkout this repository on your C:\
+<pre><code> git clone git@github.com:sushanghimire/selenium-ie-node-service.git </code></pre>
 
 2. Start your cmd as an Administrator and cd to C:\selenium-ie-node-service
+<pre><code> cd C:\selenium-ie-node-service </code></pre>
 
 3. Create (install) a service using NSSM
-nssm install selenium-ie-service C:\Selenium\selenium-ie-node-service.bat
+<pre><code> nssm install selenium-ie-service C:\Selenium\selenium-ie-node-service.bat </code></pre>
 
 4. Start the service 
-nssm start selenium-ie-service (Note: You amy need to run cmd as an Administrator)
+<code> nssm start selenium-ie-service (Note: You amy need to run cmd as an Administrator) </code>
 
 5. That's it. You are done!
 
