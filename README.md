@@ -10,19 +10,18 @@
 
 ### Run your Selenium IE Node as a Windows service
 
-#### Checkout this repository on your C:\
+1. Checkout this repository on your C:\
 
-#### Start your cmd as an Administrator and cd to C:\selenium-ie-node-service
+2. Start your cmd as an Administrator and cd to C:\selenium-ie-node-service
 
-#### Create (install) a service using NSSM
+3. Create (install) a service using NSSM
 nssm install selenium-ie-service C:\Selenium\selenium-ie-node-service.bat
 
-#### Start the service 
-nssm start selenium-ie-service 
-Note: You amy need to run cmd as an Administrator
+4. Start the service 
+nssm start selenium-ie-service (Note: You amy need to run cmd as an Administrator)
 
-##### That's it!
+5. That's it. You are done!
 
-#### More about NSSM
+##### Learn about NSSM (Non-Sucking Service Manager)
 NSSM is a Windows service helper, helps to create and maintain serivce. Find out more here: https://nssm.cc/commands
 This repository has a nssm.exe (version 2.24 32-bit) 
